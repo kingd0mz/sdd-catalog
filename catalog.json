@@ -3,7 +3,8 @@
     {
       "id": "k1N6d0mZjR",
       "type": "group",
-      "name": "Demo",
+      "name": "For Demo Only",
+      "excludeMembers": ["Flood Maps", "2lVkFGnCtr", "0p6T6Za2tr", "Mangroves","Ship Detection"],
       "members": []
     },
     {
@@ -12,7 +13,7 @@
       "name": "[OFFICIAL] PhilSA Data for DOST RSTW 2023",
       "members": [
         {
-          "id": "0IiC9VU4oV",
+          "id": "0IiC9VU4oE",
           "type": "group",
           "name": "Flood Maps",
           "members": [
