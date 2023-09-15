@@ -6,22 +6,6 @@
       "name": "Demo",
       "excludeMembers": ["Flood Maps", "2lVkFGnCtr", "0p6T6Za2tr", "Mangroves","Ship Detection"],
       "members": []
-    },
-    {
-      "id": "pvBCPRgE1x",
-      "type": "wms",
-      "name": "Sample of 2020 Floods with Time Slider",
-      "url": "https://mk2.philsa.gov.ph/geoserver/ows",
-      "description": "",
-      "layers": "flood_maps_v2:merged_flood_2020"
-    },
-    {
-      "id": "pvBLP1241x",
-      "type": "wms",
-      "name": "Sample of 2021 Floods with Time Slider",
-      "url": "https://mk2.philsa.gov.ph/geoserver/ows",
-      "description": "",
-      "layers": "flood_maps_v2:merged_flood_2021"
     }
   ]
 }
