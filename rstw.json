@@ -14,6 +14,14 @@
       "url": "https://mk2.philsa.gov.ph/geoserver/ows",
       "description": "",
       "layers": "flood_maps_v2:merged_flood_2020"
+    },
+    {
+      "id": "pvBLPRgE1x",
+      "type": "wms",
+      "name": "Sample of 2021 Floods with Time Slider",
+      "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+      "description": "",
+      "layers": "flood_maps_v2:merged_flood_2021"
     }
   ]
 }
