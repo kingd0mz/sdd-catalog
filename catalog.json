@@ -1309,19 +1309,19 @@
             },
             {
               "id": "LDrXDegcP4",
-              "type": "wms",
+              "type": "wfs",
               "name": "Provincial Boundaries",
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "",
-              "layers": "admin-boundaries:Boundary_Province"
+              "typeNames": "admin-boundaries:Boundary_Province"
             },
             {
               "id": "Sczp43ObRa",
-              "type": "wms",
+              "type": "wfs",
               "name": "Regional Boundaries",
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "",
-              "layers": "admin-boundaries:Boundary_Region"
+              "typeNames": "admin-boundaries:Boundary_Region"
             }
           ]
         }
