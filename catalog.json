@@ -1285,6 +1285,45 @@
               "layers": "mangroves:mangroves"
             }
           ]
+        },
+        {
+          "id": "nrcxVHbv9K",
+          "type": "group",
+          "name": "Political Boundaries",
+          "members": [
+            {
+              "id": "1J9IfmR3IJ",
+              "type": "wms",
+              "name": "Barangay Boundaries",
+              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "description": "",
+              "layers": "admin-boundaries:Boundary_Barangays"
+            },
+            {
+              "id": "xWDXPToane",
+              "type": "wms",
+              "name": "Municipal Boundaries",
+              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "description": "",
+              "layers": "admin-boundaries:Boundary_Municipality"
+            },
+            {
+              "id": "LDrXDegcP4",
+              "type": "wms",
+              "name": "Provincial Boundaries",
+              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "description": "",
+              "layers": "admin-boundaries:Boundary_Province"
+            },
+            {
+              "id": "Sczp43ObRa",
+              "type": "wms",
+              "name": "Regional Boundaries",
+              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "description": "",
+              "layers": "admin-boundaries:Boundary_Region"
+            }
+          ]
         }
       ]
     }
