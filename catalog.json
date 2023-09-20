@@ -1322,6 +1322,14 @@
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "",
               "typeNames": "admin-boundaries:Boundary_Region"
+            },
+            {
+              "id": "Sczp47ObRa",
+              "type": "wms",
+              "name": "Land Cover ni Sir Christian",
+              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "description": "",
+              "layers": "land-cover-sdmad:rf_Visayas"
             }
           ]
         }
