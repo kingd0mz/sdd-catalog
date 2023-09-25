@@ -13,10 +13,10 @@
             {
               "id": "pvBCPRgE1x",
               "type": "wms",
-              "name": "Sample of 2020 Floods with Time Slider",
+              "name": "Floods from 2018-present",
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "",
-              "layers": "flood_maps_v2:merged_flood_2020"
+              "layers": "flood_maps_v2:flood_2018_to_2023"
             }
           ]
         },
