@@ -3,7 +3,8 @@
     {
       "id": "k1N6d0m3jR",
       "type": "group",
-      "name": "[OFFICIAL] PhilSA Data for DOST RSTW 2023",
+      "name": "[OFFICIAL] PhilSA Data",
+      "isOpenInWorkbench": true,
       "members": [
         {
           "id": "0IiC9VU4oE",
@@ -13,7 +14,15 @@
             {
               "id": "pvBCPRgE1x",
               "type": "wms",
-              "name": "Floods from 2018-present",
+              "name": "Sample of 2020 Floods with Time Slider",
+              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "description": "",
+              "layers": "flood_maps_v2:merged_flood_2020"
+            },
+            {
+              "id": "pvBCPRgE1P",
+              "type": "wms",
+              "name": "tan zablan",
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "",
               "layers": "flood_maps_v2:flood_2018_to_2023"
