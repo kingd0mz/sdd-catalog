@@ -141,27 +141,27 @@
           "url": "https://basemapserver.geoportal.gov.ph/tiles/v2/PGP/{z}/{x}/{y}.png",
           "opacity": 1
         },
-        "image": "images/basemaps/geoportal.png"
+        "image": "https://api.sdd.philsa.gov.ph/media/basemap_geoportal.png"
       },
       {
         "item": {
           "id": "basemap-positron",
           "url": "https://basemaps.cartocdn.com/light_nolabels/"
         },
-        "image": "images/basemaps/positron.png"
+        "image": "https://api.sdd.philsa.gov.ph/media/basemap_positron.png"
       },
       {
         "item": {
           "id": "basemap-natural-earth-II"
         },
-        "image": "images/basemaps/natural-earth.png"
+        "image": "https://api.sdd.philsa.gov.ph/media/basemap_natural-earth.png"
       },
       {
         "item": {
           "id": "basemap-darkmatter",
           "url": "https://basemaps.cartocdn.com/dark_nolabels/"
         },
-        "image": "images/basemaps/dark-matter.png"
+        "image": "https://api.sdd.philsa.gov.ph/media/basemap_dark-matter.png.png"
       }
     ]
   },
