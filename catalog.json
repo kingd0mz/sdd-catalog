@@ -20,9 +20,9 @@
               "layers": "flood_maps_v2:merged_flood_2020"
             },
             {
-              "id": "pvBCPRgE1P",
+              "id": "pvLCPRgE1P",
               "type": "wms",
-              "name": "tan zablan",
+              "name": "CRISTAN",
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "",
               "layers": "flood_maps_v2:flood_2018_to_2023"
