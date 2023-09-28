@@ -141,8 +141,6 @@
               "url": "https://mk2.philsa.gov.ph/odcws/wms",
               "opacity": 1,
               "layers": "s2_l2a",
-              "linkedWcsUrl": "https://mk2.philsa.gov.ph/odcws/wcs",
-              "linkedWcsCoverage": "s2_l2a",
               "chartColor": "white",
               "timeFilterPropertyName": "time",
               "availableDiffStyles": ["simple_rgb", "infra_red", "ndvi", "rgb_ndvi"],
@@ -151,25 +149,18 @@
               "tileErrorHandlingOptions": {
                   "ignoreUnknownTileErrors": true
               }
-            }
-          ]
-        },
-        {
-          "id": "CqkxcG",
-          "type": "group",
-          "name": "Sir Frank",
-          "members": [
-              {
-                  "type": "wms",
-                  "name": "DEA Surface Reflectance (Landsat and Sentinel-2)",
-                  "url": "https://mk2.philsa.gov.ph/odcws/wms",
-                  "opacity": 1,
-                  "layers": "s2_l2a",
-                  "timeFilterPropertyName": "time",
-                  "tileErrorHandlingOptions": {
-                      "ignoreUnknownTileErrors": true
-                  }
+            },
+            {
+              "type": "wms",
+              "name": "DEA Surface Reflectance (Landsat and Sentinel-2)",
+              "url": "https://mk2.philsa.gov.ph/odcws/wms",
+              "opacity": 1,
+              "layers": "s2_l2a",
+              "timeFilterPropertyName": "time",
+              "tileErrorHandlingOptions": {
+                  "ignoreUnknownTileErrors": true
               }
+            }
           ]
         }
       ]
