@@ -144,7 +144,7 @@
               "linkedWcsUrl": "https://mk2.philsa.gov.ph/odcws",
               "linkedWcsCoverage": "s2_l2a",
               "chartColor": "white",
-              "timeFilterPropertyName": "data_available_for_dates",
+              "timeFilterPropertyName": "time",
               "availableDiffStyles": ["simple_rgb", "infra_red", "ndvi", "rgb_ndvi"],
               "leafletUpdateInterval": 750,
               "chartType": "momentPoints",
