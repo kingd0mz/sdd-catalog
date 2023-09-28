@@ -18,6 +18,24 @@
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "",
               "layers": "flood-maps:polygon-flood"
+            },
+            {
+              "id": "CqkxcG",
+              "type": "group",
+              "name": "Sir Frank",
+              "members": [
+                  {
+                      "type": "wms",
+                      "name": "DEA Surface Reflectance (Landsat and Sentinel-2)",
+                      "url": "https://mk2.philsa.gov.ph/odcws/wms",
+                      "opacity": 1,
+                      "layers": "s2_l2a",
+                      "timeFilterPropertyName": "time",
+                      "tileErrorHandlingOptions": {
+                          "ignoreUnknownTileErrors": true
+                      }
+                  }
+              ]
             }
           ]
         },
