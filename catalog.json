@@ -20,22 +20,22 @@
               "layers": "flood-maps:polygon-flood"
             },
             {
-              "id": "CqkxcG",
-              "type": "group",
-              "name": "Sir Frank",
-              "members": [
-                  {
-                      "type": "wms",
-                      "name": "DEA Surface Reflectance (Landsat and Sentinel-2)",
-                      "url": "https://mk2.philsa.gov.ph/odcws/wms",
-                      "opacity": 1,
-                      "layers": "s2_l2a",
-                      "timeFilterPropertyName": "time",
-                      "tileErrorHandlingOptions": {
-                          "ignoreUnknownTileErrors": true
-                      }
-                  }
-              ]
+              "type": "wms",
+              "name": "Surface Reflectance (Sentinel-2)",
+              "url": "https://mk2.philsa.gov.ph/odcws",
+              "opacity": 1,
+              "layers": "s2_l2a",
+              "linkedWcsUrl": "https://mk2.philsa.gov.ph/odcws",
+              "linkedWcsCoverage": "s2_l2a",
+              "chartColor": "white",
+              "timeFilterPropertyName": "data_available_for_dates",
+              "availableDiffStyles": ["simple_rgb", "infra_red", "ndvi", "rgb_ndvi"],
+              "leafletUpdateInterval": 750,
+              "chartType": "momentPoints",
+              "tileErrorHandlingOptions": {
+                  "ignoreUnknownTileErrors": true
+              },
+              "id": "SbBCvf"
             }
           ]
         },
