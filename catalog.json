@@ -91,7 +91,15 @@
                   "name": "2021 Floods with Time Slider",
                   "url": "https://mk2.philsa.gov.ph/geoserver/ows",
                   "description": "",
-                  "layers": "flood_maps_v2:merged_flood_2021"
+                  "layers": "flood_maps_v2:flood_2021"
+                },
+                {
+                  "id": "pvBKPRgE1x",
+                  "type": "wms",
+                  "name": "2023 Floods with Time Slider",
+                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "description": "",
+                  "layers": "flood_maps_v2:flood_2023"
                 }
               ]
             }
