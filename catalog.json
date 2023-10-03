@@ -88,10 +88,26 @@
                 {
                   "id": "pvBCPRgE1x",
                   "type": "wms",
+                  "name": "2020 Floods with Time Slider",
+                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "description": "",
+                  "layers": "flood_maps_v2:flood_2020"
+                },
+                {
+                  "id": "pvBCPRgE1x",
+                  "type": "wms",
                   "name": "2021 Floods with Time Slider",
                   "url": "https://mk2.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "flood_maps_v2:flood_2021"
+                },
+                {
+                  "id": "pLBCPRgE1x",
+                  "type": "wms",
+                  "name": "2022 Floods with Time Slider",
+                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "description": "",
+                  "layers": "flood_maps_v2:flood_2022"
                 },
                 {
                   "id": "pvBKPRgE1x",
