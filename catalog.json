@@ -46,39 +46,9 @@
           ]
         },
         {
-          "id": "0IiC9VU4oS",
-          "type": "group",
-          "name": "Environment",
-          "members": [
-            {
-              "id": "0p6T6Za2tr",
-              "type": "group",
-              "name": "Land Surface Temperature (LST)",
-              "members": [
-                {
-                  "id": "CEnzZzRQt7",
-                  "type": "wms",
-                  "name": "Land Surface Temperature for NCR",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
-                  "description": "",
-                  "layers": "lst-utfvi:NCR_LST_Clipped"
-                },
-                {
-                  "id": "jcRzf02zJD",
-                  "type": "wms",
-                  "name": "Urban Thermal Field Variance Index for NCR",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
-                  "description": "",
-                  "layers": "lst-utfvi:NCR_UTFVI"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "0IiC9VU4oL",
           "type": "group",
-          "name": "Hazards",
+          "name": "Disaster Risk Reduction and Management",
           "members": [
             {
               "id": "0IiC9VU4oE",
@@ -116,6 +86,36 @@
                   "url": "https://mk2.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "flood_maps_v2:flood_2023"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0IiC9VU4oS",
+          "type": "group",
+          "name": "Environment",
+          "members": [
+            {
+              "id": "0p6T6Za2tr",
+              "type": "group",
+              "name": "Land Surface Temperature (LST)",
+              "members": [
+                {
+                  "id": "CEnzZzRQt7",
+                  "type": "wms",
+                  "name": "Land Surface Temperature for NCR",
+                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "description": "",
+                  "layers": "lst-utfvi:NCR_LST_Clipped"
+                },
+                {
+                  "id": "jcRzf02zJD",
+                  "type": "wms",
+                  "name": "Urban Thermal Field Variance Index for NCR",
+                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "description": "",
+                  "layers": "lst-utfvi:NCR_UTFVI"
                 }
               ]
             }
