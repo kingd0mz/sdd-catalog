@@ -153,6 +153,28 @@
           ]
         },
         {
+          "id": "0IiC9VU4oH",
+          "type": "group",
+          "name": "Monitoring",
+          "members": [
+            {
+              "id": "0IiC9PU4oE",
+              "type": "group",
+              "name": "Ship Detection",
+              "members": [
+                {
+                  "id": "pvBCPKPgE2x",
+                  "type": "wms",
+                  "name": "Ship Detection",
+                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "description": "",
+                  "layers": "ship-detection:all_boat_detections"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "0IiC9VU4oJ",
           "type": "group",
           "name": "Satellite images",
