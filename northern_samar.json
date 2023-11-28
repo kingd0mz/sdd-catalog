@@ -1,0 +1,29 @@
+{
+    "homeCamera": {
+        "north": 12.612671200162231,
+        "east": 125.444375099271895,
+        "south": 11.891217595662869,
+        "west": 124.958981010682507
+    },
+    "catalog": [
+      {
+        "id": "k1N6d0mZjR",
+        "type": "group",
+        "name": "Demo",
+        "members": [
+            {
+                "id": "2lVkFGnCPr",
+                "type": "group",
+                "name": "Damage Assessment",
+                "members": [
+                ]
+            }
+        ]
+      }
+    ]
+  }
+
+
+
+
+
