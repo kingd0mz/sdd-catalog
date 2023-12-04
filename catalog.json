@@ -64,6 +64,14 @@
                   "layers": "drrm:flood_2020"
                 },
                 {
+                  "id": "pvBC2RgE1x",
+                  "type": "wms",
+                  "name": "2021 Floods with Time Slider",
+                  "url": "http://35.240.246.91/geoserver/ows",
+                  "description": "",
+                  "layers": "drrm:flood_2021"
+                },
+                {
                   "id": "pLBCPRgE1x",
                   "type": "wms",
                   "name": "2022 Floods with Time Slider",
@@ -119,12 +127,28 @@
           "name": "Land Cover and Land Use",
           "members": [
             {
+              "id": "HqPdwIPx86",
+              "type": "wms",
+              "name": "Philippine Land Cover 2022 - Luzon",
+              "url": "http://35.240.246.91/geoserver/ows",
+              "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+              "layers": "lulc:rf_Luzon"
+            },
+            {
               "id": "HqPbwIPx86",
               "type": "wms",
               "name": "Philippine Land Cover 2022 - Visayas",
               "url": "http://35.240.246.91/geoserver/ows",
               "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
               "layers": "lulc:rf_Visayas"
+            },
+            {
+              "id": "H2PbwIPx86",
+              "type": "wms",
+              "name": "Philippine Land Cover 2022 - Mindanao",
+              "url": "http://35.240.246.91/geoserver/ows",
+              "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+              "layers": "lulc:rf_Mindanao"
             }
           ]
         },
@@ -162,6 +186,14 @@
               "url": "http://35.240.246.91/geoserver/ows",
               "description": "2020_MVIMap_Merged",
               "layers": "vegetation:2020_MVIMap_Merged"
+            },
+            {
+              "id": "zK1KJgkfI3",
+              "type": "wms",
+              "name": "National Coconut Extents for 2020",
+              "url": "http://35.240.246.91/geoserver/ows",
+              "description": "2020_Coconut_Merged",
+              "layers": "vegetation:merged_coconut_philippines"
             }
           ]
         }
