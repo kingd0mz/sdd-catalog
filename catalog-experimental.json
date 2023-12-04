@@ -175,6 +175,29 @@
           ]
         },
         {
+          "id": "0IiC9VU4oJ",
+          "type": "group",
+          "name": "Satellite images",
+          "members": [
+            {
+              "id": "SbBCvf",
+              "type": "wms",
+              "name": "Surface Reflectance (Sentinel-2)",
+              "url": "https://mk2.philsa.gov.ph/odcws/wms",
+              "opacity": 1,
+              "layers": "s2_l2a",
+              "chartColor": "white",
+              "timeFilterPropertyName": "time",
+              "availableDiffStyles": ["simple_rgb", "infra_red", "ndvi", "rgb_ndvi"],
+              "leafletUpdateInterval": 750,
+              "chartType": "momentPoints",
+              "tileErrorHandlingOptions": {
+                  "ignoreUnknownTileErrors": true
+              }
+            }
+          ]
+        },
+        {
           "id": "yvWmz38xNZ",
           "type": "group",
           "name": "Vegetation",
@@ -186,29 +209,6 @@
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "2020_MVIMap_Merged",
               "layers": "mangroves:mangroves"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "k1N6d0m2jR",
-      "type": "group",
-      "name": "[NEW] National Datasets",
-      "isOpen": true,
-      "members": [
-        {
-          "id": "nrcxVHTv9K",
-          "type": "group",
-          "name": "Boundaries",
-          "members": [
-            {
-              "id": "1J0IfmR3IJ",
-              "type": "wms",
-              "name": "Barangay Boundaries",
-              "url": "http://35.240.246.91/geoserver/ows",
-              "description": "",
-              "layers": "boundaries:Boundary_Barangays"
             }
           ]
         }
