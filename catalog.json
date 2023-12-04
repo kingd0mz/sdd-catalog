@@ -213,6 +213,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": "k1N6d0m2jR",
+      "type": "group",
+      "name": "[NEW] National Datasets",
+      "isOpen": true,
+      "members": [
+        {
+          "id": "nrcxVHTv9K",
+          "type": "group",
+          "name": "Boundaries",
+          "members": [
+            {
+              "id": "1J0IfmR3IJ",
+              "type": "wms",
+              "name": "Barangay Boundaries",
+              "url": "http://35.240.246.91/geoserver/ows",
+              "description": "",
+              "layers": "boundaries:Boundary_Barangays"
+            }
+          ]
+        }
+      ]
     }
   ],
   "baseMaps": {
