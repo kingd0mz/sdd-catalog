@@ -97,17 +97,17 @@
                   "id": "CEnzZzRQt7",
                   "type": "wms",
                   "name": "Land Surface Temperature for NCR",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "url": "http://35.240.246.91/geoserver/ows",
                   "description": "",
-                  "layers": "lst-utfvi:NCR_LST_Clipped"
+                  "layers": "environment:NCR_LST"
                 },
                 {
                   "id": "jcRzf02zJD",
                   "type": "wms",
                   "name": "Urban Thermal Field Variance Index for NCR",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "url": "http://35.240.246.91/geoserver/ows",
                   "description": "",
-                  "layers": "lst-utfvi:NCR_UTFVI"
+                  "layers": "environment:NCR_UTFVI"
                 }
               ]
             }
@@ -119,28 +119,12 @@
           "name": "Land Cover and Land Use",
           "members": [
             {
-              "id": "HqTbwIPx86",
-              "type": "wms",
-              "name": "Philippine Land Cover 2022 - Luzon",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
-              "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-              "layers": "land-cover-sdmad:rf_Luzon"
-            },
-            {
               "id": "HqPbwIPx86",
               "type": "wms",
               "name": "Philippine Land Cover 2022 - Visayas",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "url": "http://35.240.246.91/geoserver/ows",
               "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-              "layers": "land-cover-sdmad:rf_Visayas"
-            },
-            {
-              "id": "HqPbwIPx89",
-              "type": "wms",
-              "name": "Philippine Land Cover 2022 - Mindanao",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
-              "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-              "layers": "land-cover-sdmad:rf_Mindanao"
+              "layers": "lulc:rf_Visayas"
             }
           ]
         },
@@ -158,9 +142,9 @@
                   "id": "pvBCPKPgE2x",
                   "type": "wms",
                   "name": "Ship Detection",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "url": "http://35.240.246.91/geoserver/ows",
                   "description": "",
-                  "layers": "ship-detection:all_boat_detections"
+                  "layers": "monitoring:all_boat_detections"
                 }
               ]
             }
@@ -175,9 +159,9 @@
               "id": "zK1KJgkfI6",
               "type": "wms",
               "name": "National Mangrove Extents for 2020",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "url": "http://35.240.246.91/geoserver/ows",
               "description": "2020_MVIMap_Merged",
-              "layers": "mangroves:mangroves"
+              "layers": "vegetation:2020_MVIMap_Merged"
             }
           ]
         }
