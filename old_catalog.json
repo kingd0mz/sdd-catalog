@@ -1,0 +1,238 @@
+{
+    "catalog": [
+      {
+        "id": "k1N6d0m3jR",
+        "type": "group",
+        "name": "National Datasets",
+        "isOpen": true,
+        "members": [
+          {
+            "id": "nrcxVHbv9K",
+            "type": "group",
+            "name": "Boundaries",
+            "members": [
+              {
+                "id": "1J9IfmR3IJ",
+                "type": "wms",
+                "name": "Barangay Boundaries",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "",
+                "layers": "admin-boundaries:Boundary_Barangays"
+              },
+              {
+                "id": "xWDXPToane",
+                "type": "wms",
+                "name": "Municipal Boundaries",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "",
+                "layers": "admin-boundaries:Boundary_Municipality"
+              },
+              {
+                "id": "LDrXDegcP4",
+                "type": "wfs",
+                "name": "Provincial Boundaries",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "",
+                "typeNames": "admin-boundaries:Boundary_Province"
+              },
+              {
+                "id": "Sczp43ObRa",
+                "type": "wfs",
+                "name": "Regional Boundaries",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "",
+                "typeNames": "admin-boundaries:Boundary_Region"
+              }
+            ]
+          },
+          {
+            "id": "0IiC9VU4oL",
+            "type": "group",
+            "name": "Disaster Risk Reduction and Management",
+            "members": [
+              {
+                "id": "0IiC9VU4oE",
+                "type": "group",
+                "name": "Flood Maps",
+                "members": [
+                  {
+                    "id": "pvBCPRgE1x",
+                    "type": "wms",
+                    "name": "2020 Floods with Time Slider",
+                    "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                    "description": "",
+                    "layers": "flood_maps_v2:flood_2020"
+                  },
+                  {
+                    "id": "pvBCPRgE1x",
+                    "type": "wms",
+                    "name": "2021 Floods with Time Slider",
+                    "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                    "description": "",
+                    "layers": "flood_maps_v2:flood_2021"
+                  },
+                  {
+                    "id": "pLBCPRgE1x",
+                    "type": "wms",
+                    "name": "2022 Floods with Time Slider",
+                    "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                    "description": "",
+                    "layers": "flood_maps_v2:flood_2022"
+                  },
+                  {
+                    "id": "pvBKPRgE1x",
+                    "type": "wms",
+                    "name": "2023 Floods with Time Slider",
+                    "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                    "description": "",
+                    "layers": "flood_maps_v2:flood_2023"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "0IiC9VU4oS",
+            "type": "group",
+            "name": "Environment",
+            "members": [
+              {
+                "id": "0p6T6Za2tr",
+                "type": "group",
+                "name": "Land Surface Temperature (LST)",
+                "members": [
+                  {
+                    "id": "CEnzZzRQt7",
+                    "type": "wms",
+                    "name": "Land Surface Temperature for NCR",
+                    "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                    "description": "",
+                    "layers": "lst-utfvi:NCR_LST_Clipped"
+                  },
+                  {
+                    "id": "jcRzf02zJD",
+                    "type": "wms",
+                    "name": "Urban Thermal Field Variance Index for NCR",
+                    "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                    "description": "",
+                    "layers": "lst-utfvi:NCR_UTFVI"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2lVkFGnCtr",
+            "type": "group",
+            "name": "Land Cover and Land Use",
+            "members": [
+              {
+                "id": "HqTbwIPx86",
+                "type": "wms",
+                "name": "Philippine Land Cover 2022 - Luzon",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+                "layers": "land-cover-sdmad:rf_Luzon"
+              },
+              {
+                "id": "HqPbwIPx86",
+                "type": "wms",
+                "name": "Philippine Land Cover 2022 - Visayas",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+                "layers": "land-cover-sdmad:rf_Visayas"
+              },
+              {
+                "id": "HqPbwIPx89",
+                "type": "wms",
+                "name": "Philippine Land Cover 2022 - Mindanao",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+                "layers": "land-cover-sdmad:rf_Mindanao"
+              }
+            ]
+          },
+          {
+            "id": "0IiC9VU4oH",
+            "type": "group",
+            "name": "Monitoring",
+            "members": [
+              {
+                "id": "0IiC9PU4oE",
+                "type": "group",
+                "name": "Ship Detection",
+                "members": [
+                  {
+                    "id": "pvBCPKPgE2x",
+                    "type": "wms",
+                    "name": "Ship Detection",
+                    "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                    "description": "",
+                    "layers": "ship-detection:all_boat_detections"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "yvWmz38xNZ",
+            "type": "group",
+            "name": "Vegetation",
+            "members": [
+              {
+                "id": "zK1KJgkfI6",
+                "type": "wms",
+                "name": "National Mangrove Extents for 2020",
+                "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                "description": "2020_MVIMap_Merged",
+                "layers": "mangroves:mangroves"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "baseMaps": {
+      "defaultBaseMapId": "basemap-geoportal",
+      "previewBaseMapId": "basemap-geoportal",
+      "enabledBaseMaps": [
+        "basemap-natural-earth-II",
+        "basemap-positron",
+        "basemap-darkmatter",
+        "basemap-geoportal"
+      ],
+      "items": [
+        {
+          "item": {
+            "id": "basemap-geoportal",
+            "type": "url-template-imagery",
+            "name": "Geoportal Basemap",
+            "url": "https://basemapserver.geoportal.gov.ph/tiles/v2/PGP/{z}/{x}/{y}.png",
+            "opacity": 1
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_geoportal.png"
+        },
+        {
+          "item": {
+            "id": "basemap-positron",
+            "url": "https://basemaps.cartocdn.com/light_nolabels/"
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_positron.png"
+        },
+        {
+          "item": {
+            "id": "basemap-natural-earth-II"
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_natural-earth.png"
+        },
+        {
+          "item": {
+            "id": "basemap-darkmatter",
+            "url": "https://basemaps.cartocdn.com/dark_nolabels/"
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_dark-matter.png.png"
+        }
+      ]
+    },
+    "corsDomains": ["localhost", "corsproxy.com"]
+  }

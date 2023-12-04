@@ -3,7 +3,7 @@
     {
       "id": "k1N6d0m3jR",
       "type": "group",
-      "name": "National Datasets",
+      "name": "[NEW] National Datasets",
       "isOpen": true,
       "members": [
         {
@@ -15,33 +15,33 @@
               "id": "1J9IfmR3IJ",
               "type": "wms",
               "name": "Barangay Boundaries",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "url": "http://35.240.246.91/geoserver/ows",
               "description": "",
-              "layers": "admin-boundaries:Boundary_Barangays"
+              "layers": "boundaries:Boundary_Barangays"
             },
             {
               "id": "xWDXPToane",
               "type": "wms",
               "name": "Municipal Boundaries",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "url": "http://35.240.246.91/geoserver/ows",
               "description": "",
-              "layers": "admin-boundaries:Boundary_Municipality"
+              "layers": "boundaries:Boundary_Municipality"
             },
             {
               "id": "LDrXDegcP4",
               "type": "wfs",
               "name": "Provincial Boundaries",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "url": "http://35.240.246.91/geoserver/ows",
               "description": "",
-              "typeNames": "admin-boundaries:Boundary_Province"
+              "typeNames": "boundaries:Boundary_Province"
             },
             {
               "id": "Sczp43ObRa",
               "type": "wfs",
               "name": "Regional Boundaries",
-              "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+              "url": "http://35.240.246.91/geoserver/ows",
               "description": "",
-              "typeNames": "admin-boundaries:Boundary_Region"
+              "typeNames": "boundaries:Boundary_Region"
             }
           ]
         },
@@ -59,33 +59,25 @@
                   "id": "pvBCPRgE1x",
                   "type": "wms",
                   "name": "2020 Floods with Time Slider",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "url": "http://35.240.246.91/geoserver/ows",
                   "description": "",
-                  "layers": "flood_maps_v2:flood_2020"
-                },
-                {
-                  "id": "pvBCPRgE1x",
-                  "type": "wms",
-                  "name": "2021 Floods with Time Slider",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
-                  "description": "",
-                  "layers": "flood_maps_v2:flood_2021"
+                  "layers": "drrm:flood_2020"
                 },
                 {
                   "id": "pLBCPRgE1x",
                   "type": "wms",
                   "name": "2022 Floods with Time Slider",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "url": "http://35.240.246.91/geoserver/ows",
                   "description": "",
-                  "layers": "flood_maps_v2:flood_2022"
+                  "layers": "drrm:flood_2022"
                 },
                 {
                   "id": "pvBKPRgE1x",
                   "type": "wms",
                   "name": "2023 Floods with Time Slider",
-                  "url": "https://mk2.philsa.gov.ph/geoserver/ows",
+                  "url": "http://35.240.246.91/geoserver/ows",
                   "description": "",
-                  "layers": "flood_maps_v2:flood_2023"
+                  "layers": "drrm:flood_2023"
                 }
               ]
             }
@@ -186,29 +178,6 @@
               "url": "https://mk2.philsa.gov.ph/geoserver/ows",
               "description": "2020_MVIMap_Merged",
               "layers": "mangroves:mangroves"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "k1N6d0m2jR",
-      "type": "group",
-      "name": "[NEW] National Datasets",
-      "isOpen": true,
-      "members": [
-        {
-          "id": "nrcxVHTv9K",
-          "type": "group",
-          "name": "Boundaries",
-          "members": [
-            {
-              "id": "1J0IfmR3IJ",
-              "type": "wms",
-              "name": "Barangay Boundaries",
-              "url": "http://35.240.246.91/geoserver/ows",
-              "description": "",
-              "layers": "boundaries:Boundary_Barangays"
             }
           ]
         }
