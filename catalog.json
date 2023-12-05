@@ -156,7 +156,7 @@
                   "layers": "lulc:rf_Mindanao"
                 },
                 {
-                  "id": "I2PbwIPx86",
+                  "id": "Z2PbwIPx86",
                   "type": "wms",
                   "name": "Philippine Land Cover 2022 with HLS",
                   "url": "http://35.240.246.91/geoserver/ows",
