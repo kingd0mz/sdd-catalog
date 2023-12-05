@@ -127,28 +127,50 @@
           "name": "Land Cover and Land Use",
           "members": [
             {
-              "id": "HqPdwIPx86",
-              "type": "wms",
-              "name": "Philippine Land Cover 2022 - Luzon",
-              "url": "http://35.240.246.91/geoserver/ows",
-              "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-              "layers": "lulc:rf_Luzon"
+              "id": "1IiC9VU4oE",
+              "type": "group",
+              "name": "Land Cover",
+              "members": [
+                {
+                  "id": "HqPdwIPx86",
+                  "type": "wms",
+                  "name": "Philippine Land Cover 2022 - Luzon",
+                  "url": "http://35.240.246.91/geoserver/ows",
+                  "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+                  "layers": "lulc:rf_Luzon"
+                },
+                {
+                  "id": "HqPbwIPx86",
+                  "type": "wms",
+                  "name": "Philippine Land Cover 2022 - Visayas",
+                  "url": "http://35.240.246.91/geoserver/ows",
+                  "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+                  "layers": "lulc:rf_Visayas"
+                },
+                {
+                  "id": "H2PbwIPx86",
+                  "type": "wms",
+                  "name": "Philippine Land Cover 2022 - Mindanao",
+                  "url": "http://35.240.246.91/geoserver/ows",
+                  "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+                  "layers": "lulc:rf_Mindanao"
+                }
+              ]
             },
             {
-              "id": "HqPbwIPx86",
-              "type": "wms",
-              "name": "Philippine Land Cover 2022 - Visayas",
-              "url": "http://35.240.246.91/geoserver/ows",
-              "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-              "layers": "lulc:rf_Visayas"
-            },
-            {
-              "id": "H2PbwIPx86",
-              "type": "wms",
-              "name": "Philippine Land Cover 2022 - Mindanao",
-              "url": "http://35.240.246.91/geoserver/ows",
-              "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-              "layers": "lulc:rf_Mindanao"
+              "id": "2IiC9VU4oE",
+              "type": "group",
+              "name": "Building Footprints",
+              "members": [
+                {
+                  "id": "I2PbwIPx86",
+                  "type": "wms",
+                  "name": "Building Density from Google Open Buildings",
+                  "url": "http://35.240.246.91/geoserver/ows",
+                  "description": "Tan-Zablan",
+                  "layers": "lulc:google_bldgs_per_hex_gdf"
+                }
+              ]
             }
           ]
         },
