@@ -15,7 +15,7 @@
               "id": "1J9IfmR3IJ",
               "type": "wms",
               "name": "Barangay Boundaries",
-              "url": "http://35.240.246.91/geoserver/ows",
+              "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
               "description": "",
               "layers": "boundaries:Boundary_Barangays"
             },
@@ -23,7 +23,7 @@
               "id": "xWDXPToane",
               "type": "wms",
               "name": "Municipal Boundaries",
-              "url": "http://35.240.246.91/geoserver/ows",
+              "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
               "description": "",
               "layers": "boundaries:Boundary_Municipality"
             },
@@ -31,7 +31,7 @@
               "id": "LDrXDegcP4",
               "type": "wfs",
               "name": "Provincial Boundaries",
-              "url": "http://35.240.246.91/geoserver/ows",
+              "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
               "description": "",
               "typeNames": "boundaries:Boundary_Province"
             },
@@ -39,7 +39,7 @@
               "id": "Sczp43ObRa",
               "type": "wfs",
               "name": "Regional Boundaries",
-              "url": "http://35.240.246.91/geoserver/ows",
+              "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
               "description": "",
               "typeNames": "boundaries:Boundary_Region"
             }
@@ -59,7 +59,7 @@
                   "id": "pvBCPRgE1x",
                   "type": "wms",
                   "name": "2020 Floods with Time Slider",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "drrm:flood_2020"
                 },
@@ -67,7 +67,7 @@
                   "id": "pvBC2RgE1x",
                   "type": "wms",
                   "name": "2021 Floods with Time Slider",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "drrm:flood_2021"
                 },
@@ -75,7 +75,7 @@
                   "id": "pLBCPRgE1x",
                   "type": "wms",
                   "name": "2022 Floods with Time Slider",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "drrm:flood_2022"
                 },
@@ -83,7 +83,7 @@
                   "id": "pvBKPRgE1x",
                   "type": "wms",
                   "name": "2023 Floods with Time Slider",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "drrm:flood_2023"
                 }
@@ -105,7 +105,7 @@
                   "id": "CEnzZzRQt7",
                   "type": "wms",
                   "name": "Land Surface Temperature for NCR",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "environment:NCR_LST"
                 },
@@ -113,7 +113,7 @@
                   "id": "jcRzf02zJD",
                   "type": "wms",
                   "name": "Urban Thermal Field Variance Index for NCR",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "environment:NCR_UTFVI"
                 }
@@ -135,7 +135,7 @@
                   "id": "HqPdwIPx86",
                   "type": "wms",
                   "name": "Philippine Land Cover 2022 - Luzon",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
                   "layers": "lulc:rf_Luzon"
                 },
@@ -143,7 +143,7 @@
                   "id": "HqPbwIPx86",
                   "type": "wms",
                   "name": "Philippine Land Cover 2022 - Visayas",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
                   "layers": "lulc:rf_Visayas"
                 },
@@ -151,7 +151,7 @@
                   "id": "H2PbwIPx86",
                   "type": "wms",
                   "name": "Philippine Land Cover 2022 - Mindanao",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
                   "layers": "lulc:rf_Mindanao"
                 },
@@ -159,7 +159,7 @@
                   "id": "Z2PbwIPx86",
                   "type": "wms",
                   "name": "Philippine Land Cover 2022 with HLS",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
                   "layers": "lulc:2022_HLS_Landcover"
                 }
@@ -174,7 +174,7 @@
                   "id": "I2PbwIPx86",
                   "type": "wms",
                   "name": "Building Density from Google Open Buildings",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "Tan-Zablan",
                   "layers": "lulc:google_bldgs_per_hex_gdf"
                 }
@@ -196,7 +196,7 @@
                   "id": "pvBCPKPgE2x",
                   "type": "wms",
                   "name": "Ship Detection",
-                  "url": "http://35.240.246.91/geoserver/ows",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "monitoring:all_boat_detections"
                 }
@@ -213,7 +213,7 @@
               "id": "zK1KJgkfI6",
               "type": "wms",
               "name": "National Mangrove Extents for 2020",
-              "url": "http://35.240.246.91/geoserver/ows",
+              "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
               "description": "2020_MVIMap_Merged",
               "layers": "vegetation:2020_MVIMap_Merged"
             },
@@ -221,7 +221,7 @@
               "id": "zK1KJgkfI3",
               "type": "wms",
               "name": "National Coconut Extents for 2020",
-              "url": "http://35.240.246.91/geoserver/ows",
+              "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
               "description": "2020_Coconut_Merged",
               "layers": "vegetation:merged_coconut_philippines"
             }
