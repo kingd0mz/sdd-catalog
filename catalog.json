@@ -199,6 +199,14 @@
                   "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "monitoring:all_boat_detections"
+                },
+                {
+                  "id": "pvBCPKPgE2x",
+                  "type": "wms",
+                  "name": "NIKKO",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+                  "description": "",
+                  "layers": "example:D2_SMI_2019-07-25T062040_2019-07-25T204104_L1C_COG"
                 }
               ]
             }
