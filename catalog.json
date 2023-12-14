@@ -3,7 +3,7 @@
     {
       "id": "k1N6d0m3jR",
       "type": "group",
-      "name": "[NEW] National Datasets",
+      "name": "National Datasets",
       "isOpen": true,
       "members": [
         {
@@ -61,7 +61,7 @@
                   "name": "Land Surface Temperature for NCR",
                   "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
-                  "layers": "climate:NCR_LST"
+                  "layers": "climate:NCR_LST_Clipped"
                 },
                 {
                   "id": "jcRzf02zJD",
@@ -151,7 +151,7 @@
                   "type": "wms",
                   "name": "Building Density from Google Open Buildings",
                   "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
-                  "description": "Tan-Zablan",
+                  "description": "Building Density derived from Google Open Buildings 2020",
                   "layers": "lulc:google_bldgs_per_hex_gdf"
                 }
               ]
@@ -175,28 +175,6 @@
                   "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
                   "description": "",
                   "layers": "monitoring:all_boat_detections"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "0IiC8VU4oH",
-          "type": "group",
-          "name": "Satellite Imagery",
-          "members": [
-            {
-              "id": "0IiC9PU4lE",
-              "type": "group",
-              "name": "Diwata Imagery",
-              "members": [
-                {
-                  "id": "pvBCPiPgE2x",
-                  "type": "wms",
-                  "name": "NIKKO",
-                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
-                  "description": "",
-                  "layers": "example:D2_SMI_2019-07-25T062040_2019-07-25T204104_L1C_COG"
                 }
               ]
             }
