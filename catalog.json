@@ -122,6 +122,60 @@
           ]
         },
         {
+          "id": "0IiC9LU4oL",
+          "type": "group",
+          "name": "Environment",
+          "members": [
+            {
+              "id": "0IiC9LU4oE",
+              "type": "group",
+              "name": "Nitrogen Dioxide (NO2)",
+              "members": [
+                {
+                  "id": "pvBPPRgq1x",
+                  "type": "wms",
+                  "name": "2019 NO2 Levels",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+                  "description": "As of January 2019",
+                  "layers": "environment:NO2_201901"
+                },
+                {
+                  "id": "pvBPPRgq1y",
+                  "type": "wms",
+                  "name": "2020 NO2 Levels",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+                  "description": "As of January 2020",
+                  "layers": "environment:NO2_201901"
+                },
+                {
+                  "id": "pvBPPRgq1z",
+                  "type": "wms",
+                  "name": "2021 NO2 Levels",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+                  "description": "As of January 2021",
+                  "layers": "environment:NO2_201901"
+                },
+                {
+                  "id": "pvBPPRgq1a",
+                  "type": "wms",
+                  "name": "2022 NO2 Levels",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+                  "description": "As of January 2022",
+                  "layers": "environment:NO2_201901"
+                },
+                {
+                  "id": "pvBPPRgq1b",
+                  "type": "wms",
+                  "name": "2023 NO2 Levels",
+                  "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+                  "description": "As of January 2023",
+                  "layers": "environment:NO2_201901"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "2lVkFGnCtr",
           "type": "group",
           "name": "Land Cover and Land Use",
