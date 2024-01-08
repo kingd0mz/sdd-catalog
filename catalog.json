@@ -1,3 +1,20 @@
 {
-  "catalog": []
+  "catalog": [
+    {
+      "id": "k1N6q0m3jR",
+      "type": "group",
+      "name": "EXPERIMENTAL NI TAN",
+      "isOpen": true,
+      "members": [
+            {
+              "id": "1J9IfaR3IJ",
+              "type": "wms",
+              "name": "Ships",
+              "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+              "description": "",
+              "layers": "monitoring:philsa_sdd_backend_ship"
+            }
+      ]
+    }
+  ]
 }
