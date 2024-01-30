@@ -1,6 +1,15 @@
 {
   "catalog": [
     {
+      "id": "1J9IfmR3IJ",
+      "type": "wms",
+      "name": "Barangay Boundaries",
+      "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+      "description": "",
+      "layers": "vegetation:2020_MVIMap_Merged"
+    }
+  ,
+    {
       "id": "Z2PbwIPG86",
       "type": "wms",
       "name": "Philippine Land Cover 2022 with HLS-COG",
