@@ -19,7 +19,14 @@
           "name": "Philippine Land Cover 2022 with HLS-COG-test",
           "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
           "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-          "layers": "lulc:2022_HLS_Landcover_COG"
+          "layers": "lulc:2022_HLS_Landcover_COG",
+          "disablePreview": true,
+          "rectangle": {
+            "west": 120.26,
+            "east": 121.5,
+            "north": 17.35,
+            "south": 12.5
+          }
         }
       ]
     }
