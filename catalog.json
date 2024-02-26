@@ -27,6 +27,12 @@
             "north": 17.35,
             "south": 12.5
           }
+        },
+        {
+          "type": "esri-mapServer-group",
+          "name": "Catchment Scale Land Use",
+          "id": "354db2f2",
+          "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer"
         }
       ]
     }
