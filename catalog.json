@@ -51,8 +51,7 @@
           "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
           "layers": "geoportal:land_cover_map_r11_2020",
           "disablePreview": true
-        },
-        {
+        }
       ]
     }
   ]
