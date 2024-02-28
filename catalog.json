@@ -1,54 +1,58 @@
 {
-  "id": "k1N6d0mZjRr",
-  "type": "group",
-  "name": "Demo",
-  "members": [
+  "catalog": [
     {
-      "id": "1J9IfmP3IJ",
-      "type": "wms",
-      "name": "Barangay Boundaries",
-      "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
-      "description": "",
-      "layers": "vegetation:2020_MVIMap_Merged"
-    },
-    {
-      "id": "Z2PqwIPG86",
-      "type": "wms",
-      "name": "Philippine Land Cover 2022 with HLS-COG-test",
-      "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
-      "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-      "layers": "lulc:2022_HLS_Landcover_COG",
-      "disablePreview": true,
-      "rectangle": {
-        "west": 120.26,
-        "east": 121.5,
-        "north": 17.35,
-        "south": 12.5
-      }
-    },
-    {
-      "type": "esri-mapServer-group",
-      "name": "Catchment Scale Land Use",
-      "id": "354db2f2",
-      "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer"
-    },
-    {
-      "id": "Z2PqwQPG86",
-      "type": "wmts",
-      "name": "Philippine Land Cover 2022-wmts",
-      "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
-      "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-      "layer": "lulc:2022_HLS_Landcover_COG",
-      "disablePreview": true
-    },
-    {
-      "id": "Z2Pqw1PG86",
-      "type": "wms",
-      "name": "Philippine Land Cover Geportal",
-      "url": "https://geoserver.geoportal.gov.ph/geoserver/geoportal/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng8&TRANSPARENT=true&LAYERS=geoportal%3Aland_cover_map_r11_2020&STYLES=land_cover_map_r11_2020&TILED=true&WIDTH=256&HEIGHT=256&SRS=EPSG%3A3857&BBOX=13658379.710221577%2C1604566.0977624208%2C13697515.468703588%2C1643701.856244431",
-      "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-      "layers": "geoportal:land_cover_map_r11_2020",
-      "disablePreview": true
+      "id": "k1N6d0mZjRr",
+      "type": "group",
+      "name": "Demo",
+      "members": [
+        {
+          "id": "1J9IfmP3IJ",
+          "type": "wms",
+          "name": "Barangay Boundaries",
+          "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+          "description": "",
+          "layers": "vegetation:2020_MVIMap_Merged"
+        },
+        {
+          "id": "Z2PqwIPG86",
+          "type": "wms",
+          "name": "Philippine Land Cover 2022 with HLS-COG-test",
+          "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+          "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+          "layers": "lulc:2022_HLS_Landcover_COG",
+          "disablePreview": true,
+          "rectangle": {
+            "west": 120.26,
+            "east": 121.5,
+            "north": 17.35,
+            "south": 12.5
+          }
+        },
+        {
+          "type": "esri-mapServer-group",
+          "name": "Catchment Scale Land Use",
+          "id": "354db2f2",
+          "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer"
+        },
+        {
+          "id": "Z2PqwQPG86",
+          "type": "wmts",
+          "name": "Philippine Land Cover 2022-wmts",
+          "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
+          "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+          "layer": "lulc:2022_HLS_Landcover_COG",
+          "disablePreview": true
+        },
+        {
+          "id": "Z2Pqw1PG86",
+          "type": "wms",
+          "name": "Philippine Land Cover Geportal",
+          "url": "https://geoserver.geoportal.gov.ph/geoserver/geoportal/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng8&TRANSPARENT=true&LAYERS=geoportal%3Aland_cover_map_r11_2020&STYLES=land_cover_map_r11_2020&TILED=true&WIDTH=256&HEIGHT=256&SRS=EPSG%3A3857&BBOX=13658379.710221577%2C1604566.0977624208%2C13697515.468703588%2C1643701.856244431",
+          "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+          "layers": "geoportal:land_cover_map_r11_2020",
+          "disablePreview": true
+        }
+      ]
     }
   ]
 }
