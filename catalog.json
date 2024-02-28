@@ -1,6 +1,12 @@
 {
   "catalog": [
     {
+      "id": "cog003",
+      "type": "cog",
+      "name": "Mangrove Extents 2023",
+      "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Vegetation%5CMangroveExtent_2023_v1-4-1.tif"
+    },
+    {
       "id": "k1N6d0mZjRr",
       "type": "group",
       "name": "Demo",
