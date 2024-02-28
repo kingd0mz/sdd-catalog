@@ -42,7 +42,17 @@
           "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
           "layer": "lulc:2022_HLS_Landcover_COG",
           "disablePreview": true
-        }
+        },
+        {
+          "id": "Z2Pqw1PG86",
+          "type": "wms",
+          "name": "Philippine Land Cover Geportal",
+          "url": "https://geoserver.geoportal.gov.ph/geoserver/geoportal/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng8&TRANSPARENT=true&LAYERS=geoportal%3Aland_cover_map_r11_2020&STYLES=land_cover_map_r11_2020&TILED=true&WIDTH=256&HEIGHT=256&SRS=EPSG%3A3857&BBOX=13658379.710221577%2C1604566.0977624208%2C13697515.468703588%2C1643701.856244431",
+          "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
+          "layers": "geoportal:land_cover_map_r11_2020",
+          "disablePreview": true
+        },
+        {
       ]
     }
   ]
