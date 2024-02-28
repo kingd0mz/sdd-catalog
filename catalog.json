@@ -14,10 +14,10 @@
           "layers": "vegetation:2020_MVIMap_Merged"
         },
         {
-          "id":"cog003",
+          "id":"cog033",
           "type":"cog",
-          "name":"Planet",
-          "url":"https://storage.googleapis.com/dpad-bucket/PS/Scene/20191115_015106_1014/20191115_015106_1014_3B_udm2_clip_COG.tif?Expires=1709108419&GoogleAccessId=dpad-signed-url-generator-357%40philsa-prod.iam.gserviceaccount.com&Signature=FmugbZ5o7jJhlTSzDgKrkqE%2Bxm1%2F93T7tIgq%2FeodA%2BkhzphB5yzAWBwf5jV%2BNxV0AoGVsZmyV4J%2BWC1UWpCIKAVcae0yuvz7WiJyen1%2Ffof1K8btL%2FXkKZLG4jHttF%2BIeMn%2FwL%2FhD8TSUmtUCygT10%2BGpjTSZ2nDoBxq8gQA%2BIuydTFmdPsyAs%2FdwEojFNkEL5DGeF4DXTfJLBpykE35JOkRw2DwaEkDxqv%2B3VfU7RZycLBgZ3McXd2CBaa6jF1bwHIjEuVu7ol4IV6LwftsA%2BZVcjwTYvL1An2GWIHwVCgRYg%2BSkgPc33hIA8XqefW5a2%2BpBgOJ%2FvETVk6%2FGYTVYg%3D%3D"
+          "name":"Mangrove ni Tan",
+          "url":"https://storage.googleapis.com/philsa-space-data-dashboard/Vegetation%5CMangroveExtent_2023_v1-4-1.tif"
         },
         {
           "id": "Z2PqwIPG86",
