@@ -20,25 +20,11 @@
           "layers": "vegetation:2020_MVIMap_Merged"
         },
         {
-          "id":"cog033",
-          "type":"cog",
-          "name":"Mangrove ni Tan",
-          "url":"https://storage.googleapis.com/dpad-bucket/SS/Scene/20230616_222848_ssc15d3_0013/20230616_222848_ssc15d3_0013_pansharpened_COG.tif?Expires=1709112712&GoogleAccessId=dpad-signed-url-generator-357%40philsa-prod.iam.gserviceaccount.com&Signature=KDCrK%2FfHAyrt6GXCex2NyZkoDntXQ3zxbDkJygtJI0V%2B7fov7k2WwLtyj2IBXX6Fyb0PdCSoKHug2FOPMdm6tow1%2B2dvQhHiaQWVKDmvBjy8I5ClmFrDqCrOkZgNZK8GMZqpsRQwn%2Br8FszRd5FxB21rbp1SlP0xwS2vMED52OUx6v%2Fr%2ByxZOjJQW3PcucpZ5D0IJzP8WCS67XCCx5DyzpUcmvOkJgQOsnwVq8bzhaFI20oUn8O12EGBXlZBUqH0PcgUHeB1ETcbO047s8a5vOPOjUV3ZJb8U%2Fu5YssSEhPurH1vLy8UdjMfoIDo50uIDwCJoaerYkdEIUMM%2FUm7vA%3D%3D"
-        },
-        {
           "id": "Z2PqwIPG86",
-          "type": "wms",
-          "name": "Philippine Land Cover 2022 with HLS-COG-test",
-          "url": "https://geoserver.philsa.gov.ph/geoserver/ows",
-          "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery",
-          "layers": "lulc:2022_HLS_Landcover_COG",
-          "disablePreview": true,
-          "rectangle": {
-            "west": 120.26,
-            "east": 121.5,
-            "north": 17.35,
-            "south": 12.5
-          }
+          "type": "cog",
+          "name": "Philippine Land Cover 2022",
+          "url": "https://storage.googleapis.com/philsa-space-data-dashboard/LandCoverAndLandUse/2022_LULC_COG.tif",
+          "description": "This was generated using Random Forest Algorithms on Sentinel and Landsat satellite imagery"
         },
         {
           "type": "esri-mapServer-group",
