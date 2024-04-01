@@ -12,6 +12,48 @@
           "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Vegetation%5CMangroveExtent_2023_v1-4-1.tif"
         },
         {
+          "id": "0IiC9LU4oL",
+          "type": "group",
+          "name": "Environment",
+          "members": [
+            {
+              "id": "0IiC9LU4oE",
+              "type": "group",
+              "name": "Nitrogen Dioxide (NO2)",
+              "members": [
+                {
+                  "id": "cog0adw0123",
+                  "type": "cog",
+                  "name": "2020 NO2 Levels",
+                  "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/NO2_202002.tif",
+                  "description": "As of February 2020"
+                },
+                {
+                  "id": "co123g0adw03",
+                  "type": "cog",
+                  "name": "2021 NO2 Levels",
+                  "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/NO2_202102.tif",
+                  "description": "As of February 2021"
+                },
+                {
+                  "id": "cog0123dw03",
+                  "type": "cog",
+                  "name": "2022 NO2 Levels",
+                  "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/NO2_202202.tif",
+                  "description": "As of February 2022"
+                },
+                {
+                  "id": "cog0adw03",
+                  "type": "cog",
+                  "name": "2023 NO2 Levels",
+                  "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/NO2_202302.tif",
+                  "description": "As of February 2023"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "1J9IfmP3IJ",
           "type": "wms",
           "name": "Barangay Boundaries",
